@@ -3,8 +3,8 @@
 const int rs = D0, en = D1, d4 = D4, d5 = D5, d6 = D6, d7 = D7;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
-const char *ssid = "Mamameya"; // Enter your WiFi Name
-const char *pass = "244466666"; // Enter your WiFi Password
+const char *ssid = "username"; // Enter your WiFi Name
+const char *pass = "password"; // Enter your WiFi Password
 
 WiFiServer server(80);
 
